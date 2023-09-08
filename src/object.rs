@@ -204,7 +204,7 @@ impl HashKeyable for Boolean {
 }
 
 #[derive(Debug, PartialEq, Default, Clone)]
-pub struct Null {}
+pub struct Null;
 
 impl Inspector for Null {
     fn kind(&self) -> ObjectKind {
